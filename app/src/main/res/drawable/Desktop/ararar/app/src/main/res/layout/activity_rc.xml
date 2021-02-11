@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register0"
+        android:background="#000000"
+        android:text="검정색 (0)"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        />
+    <Button
+        android:layout_weight="1"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register1"
+        android:background="#740000"
+        android:text="갈색 (1)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register2"
+        android:background="#ff0000"
+        android:text="빨간색 (2)"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register3"
+        android:background="#ff6f00"
+        android:text="주황색 (3)"
+        android:layout_weight="1"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register4"
+        android:layout_weight="1"
+        android:background="#fff200"
+        android:text="노란색 (4)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register5"
+        android:layout_weight="1"
+        android:background="#57de31"
+        android:text="초록색 (5)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/Register6"
+        android:background="#0088ff"
+        android:text="파란색 (6)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register7"
+        android:layout_weight="1"
+        android:background="#b700ff"
+        android:text="보라색 (7)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register8"
+        android:layout_weight="1"
+        android:background="#8c8b8b"
+        android:text="회색 (8)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/Register9"
+        android:background="#ffffff"
+        android:text="흰색 (9)"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/RegisterGold"
+        android:background="#ffd549"
+        android:text="금색 (5%)"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/RegisterSilver"
+        android:background="#d6d4d1"
+        android:text="은색 (10%)"
+        />
+</LinearLayout>

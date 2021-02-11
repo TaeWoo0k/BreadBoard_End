@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    >
+    <LinearLayout
+        android:layout_weight="200"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/BtnRedLine"
+        android:layout_margin="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f70303"
+        android:text="빨간 선 (전압)"
+        android:textColor="#fcfcfc"
+        />
+
+    <Button
+        android:id="@+id/BtnBlackLine"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="검정선 (접지)"
+        android:textColor="#fcfcfc"
+        />
+
+    <Button
+        android:id="@+id/BtnBlueLine"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0328f7"
+        android:text="파란선 (여분)"
+        android:textColor="#fcfcfc"
+        />
+    </LinearLayout>
+</LinearLayout>

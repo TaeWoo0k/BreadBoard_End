@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uhwaw.breadboard_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BreadBoard" />
+        <activity android:name=".ChooseRegister" />
+        <activity android:name=".RegisterColor" />
+        <activity android:name=".ChooseLine" />
+        <activity android:name=".Result" />
+        <activity android:name=".Gongsik" />
+        <activity android:name=".RC" />
+        <activity android:name=".RC1" />
+        <activity android:name=".way"/>
+        <activity android:name="way1"/>
+        <activity android:name="way2"/>
+        <activity android:name="way3"/>
+        <activity android:name=".way4"/>
+
+
+        <activity android:name=".RC2"></activity>
+    </application>
+
+</manifest>

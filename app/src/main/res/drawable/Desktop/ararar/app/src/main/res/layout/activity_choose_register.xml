@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="선택 - 저항"
+    android:layout_weight="1"
+    android:id="@+id/tv"
+    />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/Swh"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/registerbackground"
+            />
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="110dp"
+        >
+        <Button
+
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/BtnR1"
+        android:background="#000000"
+            />
+        <Button
+
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BtnR2"
+            android:background="#450500"
+            android:layout_marginTop="7dp"
+
+            />
+        <Button
+
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/BtnR3"
+            android:background="#ff8800"
+            android:layout_marginTop="7dp"
+
+            />
+        <Button
+
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:id="@+id/BtnR4"
+            android:background="#bfbfbf"
+            />
+        </LinearLayout>
+    </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        >
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:hint="  저항 값"
+            android:layout_gravity="right"
+            android:textSize="20dp"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="1"
+            android:id="@+id/Edit_register"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00%"
+            android:textSize="30dp"
+            android:id="@+id/TVper"
+            android:visibility="invisible"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="Ω"/>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="입력"
+    android:id="@+id/BtnRegComplete"
+        />
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/regist2r"
+        />
+
+
+</LinearLayout>
+</LinearLayout>

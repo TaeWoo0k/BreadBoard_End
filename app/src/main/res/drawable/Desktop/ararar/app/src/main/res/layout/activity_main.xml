@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:background="#ffea30"
+      android:text="Bread Board"
+      android:textSize="20dp"
+      android:layout_marginBottom="50dp"
+      android:id="@+id/BtnBreadBoard"
+      />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#4df778"
+        android:text="공식"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/BtnVIR"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#08f4d8"
+        android:text="사용 방법"
+        android:textSize="20dp"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/BtnHow"
+        />
+
+
+</LinearLayout>
